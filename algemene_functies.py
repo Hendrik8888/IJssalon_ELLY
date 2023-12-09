@@ -13,4 +13,4 @@ def mijn_functie_2(a,b):
       return uitvoer_lijst
 
 
-print mijn_functie_2(1,2)
+print(mijn_functie_2(1,2))

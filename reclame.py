@@ -84,10 +84,9 @@ Met andere woorden de functie mijn_functie_2() importeer je in het bestand recla
 """
 
 def combinatie(invoer_lijst_2):
-    korte_lijst = meervoudig(invoer_lijst_2)
-    resultaat_mijn_functie_2 = mijn_functie_2(korte_lijst)
-    return resultaat_mijn_functie_2
-
+    korte_lijst = hoog_en_laag(invoer_lijst_2)
+    uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
 invoer_lijst_2 = [2, 3]
 
 resultaat_combinatie = combinatie(invoer_lijst_2)
